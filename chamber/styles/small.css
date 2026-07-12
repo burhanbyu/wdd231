@@ -12,10 +12,14 @@
 }
 
 body {
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    color: var(--text-color);
-    background: var(--secondary-color);
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.logo span {
+    font-family: "Montserrat", sans-serif;
 }
 
 
