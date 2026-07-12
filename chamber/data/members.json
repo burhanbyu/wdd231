@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Brighter Monday",
+        "address": "Kenyatta Avenue",
+        "phone": "+2547001######",
+        "website": "https://www.brightermonday.co.ke/",
+        "image": "brightermonday.svg",
+        "membership": 3,
+        "description": "Career Development Services"
+    },
+    {
+        "name": "Safaricom",
+        "address": "45 River Road",
+        "phone": "+2547112223##",
+        "website": "https://www.safaricom.co.ke/",
+        "image": "safaricom.webp",
+        "membership": 2,
+        "description": "Telecom Services"
+    },
+    {
+        "name": "Hilton Hotel",
+        "address": "Kenyatta Avenue",
+        "phone": "+2547001######",
+        "website": "https://hilton.com",
+        "image": "hilton-nairobi.png",
+        "membership": 3,
+        "description": "Hospitality Services"
+    },
+    {
+        "name": "Kenya Airways",
+        "address": "45 River Road",
+        "phone": "+2547112######",
+        "website": "https://www.kenya-airways.com/en-ke/",
+        "image": "kenyaairways.png",
+        "membership": 2,
+        "description": "Airlines Services"
+    },
+    {
+        "name": "Mombasa Innovation Hub",
+        "address": "Kenyatta Avenue",
+        "phone": "+2547001######",
+        "website": "https://www.facebook.com/p/Mombasa-Innovation-Hub-Mihub-61558854151401/",
+        "image": "mombasa.jpg",
+        "membership": 3,
+        "description": "Technology Services"
+    },
+    {
+        "name": "Nairobi Hospital",
+        "address": "45 River Road",
+        "phone": "+254711222###",
+        "website": "https://nairobihospital.com",
+        "image": "the-nairobi-hospital.webp",
+        "membership": 2,
+        "description": "Healthcare Services"
+    },
+    {
+        "name": "Equity Bank",
+        "address": "45 River Road",
+        "phone": "+2547112223##",
+        "website": "https://equitygroupholdings.com/ke/",
+        "image": "equity.png",
+        "membership": 2,
+        "description": "Banking Services"
+    }
+]

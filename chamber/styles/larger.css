@@ -1,0 +1,97 @@
+/* ===========================
+   Desktop Layout (768px+)
+=========================== */
+
+@media (min-width: 768px) {
+
+    /* Main content */
+    main {
+        display: block;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    /* Page title */
+    h1 {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+
+    /* Directory Grid */
+    #members.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        align-items: stretch;
+    }
+
+
+    /* Business cards */
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 10px;
+        min-height: 330px;
+    }
+
+
+    .card img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 1rem;
+        object-fit: contain;
+    }
+
+
+    /* List View */
+    #members.list {
+        display: block;
+    }
+
+
+    #members.list .card {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        text-align: left;
+        align-items: center;
+        gap: 2rem;
+        min-height: 150px;
+        margin-bottom: 1rem;
+    }
+
+
+    #members.list img {
+        margin: 0;
+    }
+
+
+    /* Navigation */
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+
+    .navigation li {
+        width: auto;
+    }
+
+
+    .navigation a {
+        padding: 1rem 1.5rem;
+        border: none;
+    }
+
+
+    footer {
+        margin-top: 3rem;
+    }
+
+}
