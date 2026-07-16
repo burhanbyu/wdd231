@@ -1,0 +1,80 @@
+/* prophets.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header,
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Responsive Grid */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Card Styling */
+#cards section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#cards section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#cards h2 {
+    color: #003366;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+}
+
+#cards p {
+    margin: 0.4rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#cards img {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #003366;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
